@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите пятизначное число: ");
-string? num = Console.ReadLine();
+string num = Console.ReadLine();
 
 
 void PoliNum(string num)
