@@ -6,8 +6,8 @@ Console.Write("Массив: ");
 PrintArray(numbers);
 int count = 0;
 
-for (int z = 0; z < numbers.Length; z++)
-if (numbers[z] % 2 == 0)
+for (int j = 0; j < numbers.Length; j++)
+if (numbers[j] % 2 == 0)
 count++;
 
 Console.Write($" имеет {numbers.Length} чисел, {count} из них чётные");
