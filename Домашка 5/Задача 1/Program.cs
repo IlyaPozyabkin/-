@@ -27,5 +27,4 @@ void PrintArray(int[] numbers)
         Console.Write(numbers[i] + " ");
     }
     Console.Write("]");
-   
 }
