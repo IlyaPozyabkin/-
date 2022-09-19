@@ -1,4 +1,4 @@
-﻿Console.WriteLine("введите размер квадратного массива");
+﻿Console.WriteLine("введите размер прямоугольного массива");
 int massVol = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[massVol, massVol];
 FillArrayRandomNumbers(numbers);
